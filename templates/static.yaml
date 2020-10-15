@@ -1,0 +1,3 @@
+{{- with .Values.static }}
+{{ tpl . $ }}
+{{- end }}

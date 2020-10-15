@@ -1,0 +1,15 @@
+---
+apiVersion: v2
+name: static
+version: 0.1.0
+appVersion: 0.1.0
+description: A Helm chart to deploy k8s static files
+keywords:
+  - static
+  - k8s
+  - template
+  - DRY
+source:
+  - https://github.com/cetic/helm-static
+maintainers:
+  - name: alexnuttinck
