@@ -4,11 +4,11 @@
 
 ## Pass your k8s static file here (for instance a secret)
 static: |
-  # apiVersion: v1
-  # kind: Secret
-  # metadata:
-  #   name: mysecret
-  # type: Opaque
-  # data:
-  #   username: YWRtaW4=
-  #   password: MWYyZDFlMmU2N2Rm
+  apiVersion: v1
+  kind: Secret
+  metadata:
+    name: mysecret
+  type: Opaque
+  data:
+    username: YWRtaW4=
+    password: MWYyZDFlMmU2N2Rm

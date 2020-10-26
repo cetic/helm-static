@@ -1,3 +1,2 @@
-{{- with .Values.static }}
-{{ tpl . $ }}
-{{- end }}
+---
+{{- include "static" . -}}
